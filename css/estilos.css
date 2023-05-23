@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700;900&display=swap");
+* {
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+body {
+  background-color: black;
+  font-family: 'Montserrat' !important;
+  font-weight: 300;
+  width: 100%; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  color: teal;
+  font-size: 40px; }
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px;
+  color: white; }
+
+.planetas img {
+  float: left; }
+
+div .planetas {
+  border: 3px solid #f17536;
+  display: inline-block;
+  margin-bottom: 3px; }
+
+div .planetasTitulo, .planetasTitulo, section .planetasTitulo, div div div .planetasTitulo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  color: #f17536;
+  margin-top: 100px; }
+
+div .planetas p {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px; }
+
+div .planetas h3 {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  color: white; }
+
+@media screen and (max-width: 1250px) {
+  div div div .index-banner {
+    visibility: hidden; } }
+
+@media screen and (max-width: 1250px) {
+  div div div iframe {
+    visibility: hidden; } }
+
+@media screen and (max-width: 1250px) {
+  div div div .echoes {
+    visibility: hidden; } }
+
+header nav {
+  background-color: black;
+  top: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  float: right; }
+  header nav div .logo-img {
+    width: 80px;
+    height: 65px; }
+
+div div div .index-banner {
+  width: 1500px;
+  height: 200px;
+  margin-top: 50px; }
+
+div div .hero {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center; }
+  div div .hero p {
+    font-size: 30px;
+    border: 2px solid #f17536;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: "Montserrat";
+    font-weight: 200; }
+
+div div .owH2 {
+  color: #f17536;
+  font-family: "Montserrat";
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px; }
+
+div div div iframe {
+  width: 900px;
+  height: 600px; }
+
+div div div .owDescripcion {
+  color: #f17536;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 50px; }
+
+div div div .owDescripcionJuego {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-size: 20px;
+  margin-left: 40px; }
+
+div .planetasTitulo {
+  margin-left: -1px; }
+
+div .planetas p .timber-png {
+  width: 160px;
+  height: 200px; }
+
+div .planetas p .hourglass-png {
+  width: 180px;
+  height: 200px; }
+
+div .planetas p .britte-png {
+  width: 180px;
+  height: 200px; }
+
+div .planetas p .giant-png {
+  width: 190px;
+  height: 200px; }
+
+div .planetas p .bramble-png {
+  width: 180px;
+  height: 200px; }
+
+div .planetas p .theeye-png {
+  width: 220px;
+  height: 200px; }
+
+.planetasTitulo {
+  margin-left: 25px; }
+
+section div div .borderMerch {
+  margin-left: 10px;
+  border: 3px solid #f17536;
+  height: 550px;
+  width: 640px; }
+  section div div .borderMerch .ropa {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; }
+  section div div .borderMerch p {
+    color: white;
+    text-align: center;
+    font-size: 25px; }
+  section div div .borderMerch .botonComprar {
+    border: 2px solid #f17536;
+    background-color: transparent;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white; }
+
+div .planetasTitulo {
+  margin-left: 4px; }
+
+div div div form .labelsForms {
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: -2px; }
+
+div div div form .inputEmail {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 90%;
+  background-color: transparent;
+  border: 2px solid #ff8000;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px; }
+
+div div div form .labelsForms {
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px; }
+
+div div div form .inputMensaje {
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 90%;
+  background-color: transparent;
+  border: 2px solid #ff8000;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px; }
+
+div div div form .botonEnviar {
+  background-color: transparent;
+  border: 2px solid #ff8000;
+  color: white;
+  width: 20%;
+  font-family: "Montserrat";
+  font-weight: 30px; }
+
+div div div .grid-contenedor {
+  background-color: black;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(3, 1fr); }
+  div div div .grid-contenedor .item1 {
+    border: 2px solid #f17536;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 25px;
+    color: white;
+    text-align: center; }
+    div div div .grid-contenedor .item1 .riebeck {
+      height: 100%;
+      width: 100%;
+      object-fit: fill; }
+  div div div .grid-contenedor .item2 {
+    border: 2px solid #f17536;
+    font-size: 25px;
+    color: white;
+    text-align: center; }
+    div div div .grid-contenedor .item2 .stranger {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 10px; }
+
+div div div .echoes {
+  width: 1500px;
+  height: 200px;
+  margin-top: 90px; }
+
+div div div .yaDisponible {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  margin-left: 40px; }
+
+div div div a .fotoSteam {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px; }
+
+footer {
+  position: relative;
+  bottom: 10px; }
+  footer .footerDerechos {
+    float: left;
+    color: white;
+    display: flex;
+    align-items: center; }

@@ -1,0 +1,396 @@
+div {
+    div {
+        div {
+            .index-banner {
+                width: 1500px;
+                height: 200px;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    div {
+        .hero {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-size: 30px;
+                border: 2px solid $color-brand;
+                color: white;
+                text-align: center;
+                padding: 8px;
+                font-family: $tipo-ppal;
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+div {
+    div {
+        .owH2 {
+            color: $color-brand;
+            font-family: $tipo-ppal;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+    }
+
+    div {
+        div {
+            iframe {
+                width: 900px;
+                height: 600px;
+            }
+        }
+
+        div {
+            .owDescripcion {
+                color: $color-brand;
+                font-family: $tipo-ppal;
+                font-weight: 700;
+                font-size: 25px;
+                margin-left: 50px;
+            }
+
+            .owDescripcionJuego {
+                color: $color-ppal;
+                display: flex;
+                align-items: center;
+                font-family: $tipo-ppal;
+                font-weight: 500;
+                margin-bottom: 8px;
+                font-size: 20px;
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+div {
+    .planetasTitulo {
+        @extend %planetas-titulo;
+        margin-left: -1px;
+    }
+
+    .planetas {
+        @extend %planetas;
+
+        h3 {
+            @extend %h3;
+        }
+
+        p {
+            @extend %planetas-p;
+
+            .timber-png {
+                width: 160px;
+                height: 200px;
+            }
+        }
+    }
+
+    .planetas {
+        @extend %planetas;
+
+        h3 {
+            @extend %h3;
+        }
+
+        p {
+            @extend %planetas-p;
+
+            .hourglass-png {
+                width: 180px;
+                height: 200px;
+            }
+        }
+    }
+
+    .planetas {
+        @extend %planetas;
+
+        h3 {
+            @extend %h3;
+        }
+
+        p {
+            @extend %planetas-p;
+
+            .britte-png {
+                width: 180px;
+                height: 200px;
+            }
+        }
+    }
+
+    .planetas {
+        @extend %planetas;
+
+        h3 {
+            @extend %h3;
+        }
+
+        p {
+            @extend %planetas-p;
+
+            .giant-png {
+                width: 190px;
+                height: 200px;
+            }
+        }
+    }
+
+    .planetas {
+        @extend %planetas;
+
+        h3 {
+            @extend %h3;
+        }
+
+        p {
+            @extend %planetas-p;
+
+            .bramble-png {
+                width: 180px;
+                height: 200px;
+            }
+        }
+    }
+
+    .planetas {
+        @extend %planetas;
+
+        h3 {
+            @extend %h3;
+        }
+
+        p {
+            @extend %planetas-p;
+
+            .theeye-png {
+                width: 220px;
+                height: 200px;
+            }
+        }
+    }
+
+
+}
+
+.planetasTitulo {
+    @extend %planetas-titulo;
+    margin-left: 25px;
+}
+
+section {
+    div {
+        div {
+            .borderMerch {
+                margin-left: 10px;
+                border: 3px solid $color-brand;
+                height: 550px;
+                width: 640px;
+
+                .ropa {
+                    width: 100%;
+                    height: 80%;
+                    object-fit: cover;
+                }
+
+                p {
+                    color: white;
+                    text-align: center;
+                    font-size: 25px;
+                }
+
+                .botonComprar {
+                    border: 2px solid $color-brand;
+                    background-color: transparent;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 80px;
+                    margin-right: 80px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+section {
+    .planetasTitulo {
+        @extend %planetas-titulo;
+    }
+}
+
+div {
+    .planetasTitulo {
+        @extend %planetas-titulo;
+        margin-left: 4px;
+    }
+
+    div {
+        div {
+            form {
+                .labelsForms {
+                    color: white;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 30px;
+                    margin-left: -2px;
+
+                }
+
+                .inputEmail {
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+                    width: 90%;
+                    background-color: transparent;
+                    border: 2px solid rgb(255, 128, 0);
+                    color: white;
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    font-size: 20px;
+                }
+
+                .labelsForms {
+                    color: white;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 30px;
+                }
+
+                .inputMensaje {
+                    height: 200px;
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+                    width: 90%;
+                    background-color: transparent;
+                    border: 2px solid rgb(255, 128, 0);
+                    color: white;
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    font-size: 20px;
+                }
+
+                .botonEnviar {
+                    background-color: map-get($boton, bg-boton);
+                    border: map-get($boton, border-boton);
+                    color: map-get($boton, color-texto);
+                    width: map-get($boton, width-boton);
+                    font-family: map-get($boton, font-text);
+                    font-weight: map-get($boton, size-texto);
+                }
+            }
+        }
+    }
+}
+
+div {
+    div {
+        div {
+            .planetasTitulo {
+                @extend %planetas-titulo;
+            }
+
+            .grid-contenedor {
+                background-color: black;
+                display: grid;
+                box-sizing: border-box;
+                grid-template-columns: repeat(3, 1fr);
+
+                .item1 {
+                    border: 2px solid rgb(241, 117, 54);
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    font-size: 25px;
+                    color: white;
+                    text-align: center;
+
+                    .riebeck {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: fill;
+                    }
+                }
+
+                .item2 {
+                    border: 2px solid rgb(241, 117, 54);
+                    font-size: 25px;
+                    color: white;
+                    text-align: center;
+
+                    .stranger {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 15px;
+                        box-shadow: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div {
+    div {
+        div {
+            .echoes {
+                width: 1500px;
+                height: 200px;
+                margin-top: 90px;
+            }
+        }
+    }
+}
+
+div{
+    div{
+        div{
+            .owH2{
+
+            }
+        }
+    }
+    div{
+        div{
+            iframe{
+                
+            }
+        }
+        div{
+            .owDescripcion{
+               
+            }
+            .owDescripcionJuego{
+
+            }
+            .yaDisponible{
+                color: $color-ppal;
+                display: flex;
+                align-items: center;
+                font-family: $tipo-ppal;
+                font-weight: 700;                
+                font-size: 60px;
+                margin-left: 40px;
+            }
+            a{
+                .fotoSteam{
+                    display: flex;
+                    align-items: center;                    
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

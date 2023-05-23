@@ -1,0 +1,31 @@
+%planetas {
+    border: 3px solid rgb(241, 117, 54);
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+%planetas-titulo {
+    font-family: $tipo-ppal;
+    font-weight: 700;
+    font-size: 40px;
+    color: $color-brand;
+    margin-top: 100px;
+}
+
+%planetas-p {
+    font-family: $tipo-ppal;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+%h3 {
+    font-family: $tipo-ppal;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}

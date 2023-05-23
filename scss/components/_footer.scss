@@ -1,0 +1,10 @@
+footer{
+    position: relative;  
+    bottom: 10px;
+    .footerDerechos{
+        float:left;
+        color:white;
+        display:flex;
+        align-items: center;        
+    }
+}
